@@ -12,11 +12,11 @@
   <meta charset="utf-8">
   <meta name="author" content="Your name here">
   <meta name="description" content="description of your page">
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
    <!-- you would link to an external stylesheet here! -->
    <!-- you would also link to Bootstrap here! -->
-  <title>Jonathans Website</title>
+  <title>title here</title>
 </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
@@ -54,118 +54,109 @@
         <a href="#resume_section" class="link-dark text-decoration-none deeznuts"><h3>Resume</h3> </a>
     </div>
     <div class="col-md-7">
-      <div class="d-flex p-2">
-        <a id="about_section">
-          <div class="row">
-            <h3>About</h3>
-            <p> I am a 4th year at UC Irvine studying Computer Science and Engineering. In my free time I like to eat food 🍗. </p>
-          </div>
-        </a>
+      <div class="d-flex p-2" id="about_section">
+        <div class="row">
+          <h3>About</h3>
+          <p> I am a 4th year at UC Irvine studying Computer Science and Engineering. In my free time I like to eat food 🍗. </p>
+        </div>
       </div>
-      <div class="d-flex p-2">
-        <a id="experience_section">
-          <div class="row">
-            <h3>Experience</h3>
-            <h5> 
-              Amazon 
-              <small class="text-muted"><i class="yourmom"> Embedded Software Intern </i> </small>
-            </h5>
-            <ul>
-              <li> Worked on the <a class="text-muted text-decoration-none" href="https://www.aboutamazon.com/news/transportation/meet-scout"><i class="intextlink">Amazon Scout</i> </a>, Embedded Team </li>
-              <li> Created automated board testing framework </li>
-              <li> Modified and improved existing firmware in C</li>
-              <li> Utilized <a class="text-muted text-decoration-none" href="https://uavcan.org/"><i class="intextlink">UAVCAN</i> </a> and <a class="text-muted text-decoration-none" href="https://pytest.org/"><i class="intextlink">Pytest</i> </a> on testing framework</li>
-            </ul>
-            <hr />
-            <h5> 
-              Northrop Grumman 
-              <small class="text-muted"><i class="yourmom"> Electrical Engineering Intern </i> </small>
-            </h5>
-            <ul>
-              <li> Worked on FPGA designs in VHDL</li>
-              <li> Implemented IP cores in design</li>
-              <li> Used lab equiptment to test boards </li>
-            </ul>
-            <hr />
-            <h5> 
-            UCI CanSat 
-              <small class="text-muted"><i class="yourmom"> Embedded Software Team </i> </small>
-            </h5>
-            <ul>
-              <li> Worked on Embedded Software using Arduino</li>
-              <li> Created basic task scheduler</li>
-              <li> Developed sensor drivers</li>
-            </ul>
-            <hr />
-          </div>
-        </a>
+      <div class="d-flex p-2" id="experience_section">
+        <div class="row">
+          <h3>Experience</h3>
+          <h5> 
+            Amazon 
+            <small class="text-muted"><i class="yourmom"> Embedded Software Intern </i> </small>
+          </h5>
+          <ul>
+            <li> Worked on the <a class="text-muted text-decoration-none" href="https://www.aboutamazon.com/news/transportation/meet-scout"> <i class="intextlink">Amazon Scout</i> </a> , Embedded Team </li>
+            <li> Created automated board testing framework </li>
+            <li> Modified and improved existing firmware in C</li>
+            <li> Utilized <a class="text-muted text-decoration-none" href="https://uavcan.org/"><i class="intextlink">UAVCAN</i> </a> and <a class="text-muted text-decoration-none" href="https://pytest.org/"><i class="intextlink">Pytest</i> </a> on testing framework</li>
+          </ul>
+          <hr />
+          <h5> 
+            Northrop Grumman 
+            <small class="text-muted"><i class="yourmom"> Electrical Engineering Intern </i> </small>
+          </h5>
+          <ul>
+            <li> Worked on FPGA designs in VHDL</li>
+            <li> Implemented IP cores in design</li>
+            <li> Used lab equiptment to test boards </li>
+          </ul>
+          <hr />
+          <h5> 
+          UCI CanSat 
+            <small class="text-muted"><i class="yourmom"> Embedded Software Team </i> </small>
+          </h5>
+          <ul>
+            <li> Worked on Embedded Software using Arduino</li>
+            <li> Created basic task scheduler</li>
+            <li> Developed sensor drivers</li>
+          </ul>
+          <hr />
+        </div>
       </div>
-      <div class="d-flex p-2">
-        <a id="projects_section">
-          <div class="row">
-            <h3>Projects</i></h3>
-            <h5> 
-              Micromouse 
-              <a href="https://github.com/micromouseuci/micromouse-kit" class="text-decoration-none proj-icons">
-                <i class="fab fa-github-alt"></i> 
-              </a>
-              <a href="https://micromouseuci.github.io/" class="text-decoration-none proj-icons">
-                <i class="fas fa-globe-americas"></i> 
-              </a>
-              <a href="https://drive.google.com/drive/folders/1fHwfOaCsH3-F_LZoAcfiGgn9cWiebsPj?usp=sharing" class="text-decoration-none proj-icons">
-                <i class="fab fa-google-drive"></i> 
-              </a>
+      <div class="d-flex p-2" id="projects_section">
+        <div class="row">
+          <h3>Projects</i></h3>
+          <h5> 
+            Micromouse 
+            <a href="https://github.com/micromouseuci/micromouse-kit" class="text-decoration-none proj-icons">
+              <i class="fab fa-github-alt"></i> 
+            </a>
+            <a href="https://micromouseuci.github.io/" class="text-decoration-none proj-icons">
+              <i class="fas fa-globe-americas"></i> 
+            </a>
+            <a href="https://drive.google.com/drive/folders/1fHwfOaCsH3-F_LZoAcfiGgn9cWiebsPj?usp=sharing" class="text-decoration-none proj-icons">
+              <i class="fab fa-google-drive"></i> 
+            </a>
 
-            </h5>
-            <ul>
-              <li> An autonomous maze solving robot</li>
-              <li> Created schematic and PCB in <a class="text-muted text-decoration-none" href="https://www.kicad.org/"><i class="intextlink">KiCAD</i> </a></li>
-              <li> Wrote basic code in C to interface with components</li>
-              <li> Currently working on PID controls for moving straight </li>
-            </ul>
-        
-            <h5> 
-              UTC Housing Notifier
-              <a href="https://github.com/lowJ/utc_housing_notifier" class="text-decoration-none proj-icons">
-                <i class="fab fa-github-alt"></i> 
-              </a>
-            </h5>
-            <ul>
-              <li> Webscrapper that notifies user of any UTC aparment openings </li>
-              <li> User can choose to subscribe to specific floorplans </li>
-              <li> Uses <a class="text-muted text-decoration-none" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/"><i class="intextlink">Beautiful Soup</i> </a> for web scrapping </li>
-              <li> Notifies users through text message via <a class="text-muted text-decoration-none" href="https://www.twilio.com/"><i class="intextlink">Twilio</i> </a> </li>
-            </ul>
+          </h5>
+          <ul>
+            <li> An autonomous maze solving robot</li>
+            <li> Created schematic and PCB in <a class="text-muted text-decoration-none" href="https://www.kicad.org/"><i class="intextlink">KiCAD</i> </a></li>
+            <li> Wrote basic code in C to interface with components</li>
+            <li> Currently working on PID controls for moving straight </li>
+          </ul>
+      
+          <h5> 
+            UTC Housing Notifier
+            <a href="https://github.com/lowJ/utc_housing_notifier" class="text-decoration-none proj-icons">
+              <i class="fab fa-github-alt"></i> 
+            </a>
+          </h5>
+          <ul>
+            <li> Webscrapper that notifies user of any UTC aparment openings </li>
+            <li> User can choose to subscribe to specific floorplans </li>
+            <li> Uses <a class="text-muted text-decoration-none" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/"><i class="intextlink">Beautiful Soup</i> </a> for web scrapping </li>
+            <li> Notifies users through text message via <a class="text-muted text-decoration-none" href="https://www.twilio.com/"><i class="intextlink">Twilio</i> </a> </li>
+          </ul>
 
-            <h5> 
-              Macropad
-              <a href="https://github.com/william-redenbaugh/lazy-board" class="text-decoration-none proj-icons">
-                <i class="fab fa-github-alt"></i> 
-              </a>
-            </h5>
-            <ul>
-              <li> 12-Key macropad with RGB OLED display </li>
-              <li> Features per-key RGB and hotswappable switches </li>
-              <li> Created schematic and PCB in <a class="text-muted text-decoration-none" href="https://www.kicad.org/"><i class="intextlink">KiCAD</i> </a></li>
-              <li> Designed case and plate in <a class="text-muted text-decoration-none" href="https://www.solidworks.com/"><i class="intextlink">Solidworks</i> </a> </li>
-            </ul>
-          </div>
-        </a>
+          <h5> 
+            Macropad
+            <a href="https://github.com/william-redenbaugh/lazy-board" class="text-decoration-none proj-icons">
+              <i class="fab fa-github-alt"></i> 
+            </a>
+          </h5>
+          <ul>
+            <li> 12-Key macropad with RGB OLED display </li>
+            <li> Features per-key RGB and hotswappable switches </li>
+            <li> Created schematic and PCB in <a class="text-muted text-decoration-none" href="https://www.kicad.org/"><i class="intextlink">KiCAD</i> </a></li>
+            <li> Designed case and plate in <a class="text-muted text-decoration-none" href="https://www.solidworks.com/"><i class="intextlink">Solidworks</i> </a> </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="d-flex p-2">
-        <a id="resume_section">
-          <div class="row">
-            <h3>Resume
-              <a href="resume.pdf" class="link-secondary text-decoration-none proj-icons" download>
-                <i class="fas fa-file-download yourmom"></i> 
-              </a>
-            </h3>
-            <iframe src="resume.pdf" height="580"></iframe>
-          </div>
-        </a>
+      <div class="d-flex p-2" id="resume_section">
+        <div class="row">
+          <h3>Resume
+            <a href="resume.pdf" class="link-secondary text-decoration-none proj-icons" download>
+              <i class="fas fa-file-download yourmom"></i> 
+            </a>
+          </h3>
+          <iframe src="resume.pdf" height="580"></iframe>
+        </div>
       </div>
-
     </div>
   </div>
 </div>
