@@ -1,0 +1,70 @@
+.fa-github-alt:hover {
+  color: #92baf4;
+}
+
+.fa-github-alt {
+    color: grey;
+    
+}
+
+.title-icons {
+    margin-right: 1%;
+    margin-left: 1%;
+    color: grey;
+}
+
+.title-icons:hover {
+    color: #92baf4;
+}
+
+.proj-icons {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.fa-globe-americas:hover {
+    color: #92baf4;
+}
+
+.fa-globe-americas {
+    color: grey;
+}
+
+.fa-google-drive {
+    color:grey;
+}
+
+.fa-google-drive:hover {
+    color:#92baf4
+}
+
+.deeznuts {
+    color:grey
+}
+
+.deeznuts:hover {
+    color:#92baf4
+}
+
+.yourmom {
+    color:grey
+}
+
+.yourmom:hover {
+    color:#92baf4
+}
+
+.subsection-titles{
+    color:#92baf4;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.intextlink:hover{
+    color:#92baf4;
+}
+
+/* #92baf4 pastel*/ 
+
